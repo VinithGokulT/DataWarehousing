@@ -173,10 +173,10 @@ BEGIN
 		
 		print '=============================';
 		set @start_time = getdate();
-		print 'truncate table: silver.erp_loc_a101';
-		truncate table silver.erp_loc_a101;
+		print 'truncate table: silver.erp_cust_az12';
+		truncate table silver.erp_cust_az12;
 		print '=============================';
-		print 'insert table: silver.erp_loc_a101';
+		print 'insert table: silver.erp_cust_az12';
 		insert into silver.erp_cust_az12(
 			cid,
 			bdate,
